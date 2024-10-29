@@ -1,0 +1,50 @@
+.que-hacemos-section {
+    background-color: #38b6ff; /* Celeste */
+    padding: 40px 0;
+}
+
+.que-hacemos-section h2 {
+    font-family: 'Zing Rust Base', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #004aad; /* Azul */
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.que-hacemos-section h3 {
+    font-family: 'Zing Rust Base', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #004aad; /* Azul */
+}
+
+.que-hacemos-section p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: #555555;
+    line-height: 1.6;
+}
+
+.que-hacemos-section .card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* Asegura que todas las tarjetas tengan la misma altura */
+}
+
+.que-hacemos-section img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
