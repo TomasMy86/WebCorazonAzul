@@ -1,0 +1,23 @@
+/* Ajuste de la sección de Misión y Visión */
+.mission-vision-section {
+    max-width: 700px; /* Ancho máximo igual al de la sección introductoria */
+    margin: 0 auto;
+    padding: 40px 0;
+    position: relative;
+    left: -350px; /* Ajuste hacia la izquierda */
+    height: 250px;
+}
+
+.mission-vision-section h3 {
+    font-family: 'Zing Rust Base', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #004aad; /* Azul */
+}
+
+.mission-vision-section p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: #555555;
+    line-height: 1.6;
+}
