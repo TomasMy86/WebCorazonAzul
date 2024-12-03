@@ -1,0 +1,70 @@
+/* Estilos para la sección introductoria con fondo rojo y la imagen superpuesta */
+.quienes-somos {
+    background-color: #004aad;
+    color: #FFFFFF;
+    position: relative;
+    overflow: visible;
+    padding: 40px 0;
+    height: 400px;
+}
+
+.quienes-somos .text-content {
+    padding: 40px;
+    max-width: 800px; /* Establece un ancho máximo para centrar la descripción general */
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: -80px
+}
+
+.quienes-somos h2 {
+    font-family: 'Zing Rust Base', sans-serif;
+    color: #FFFFFF;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.quienes-somos p.lead {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #FFFFFF; /* Blanco */
+}
+
+.quienes-somos .image-content {
+    position: relative;
+    top: 100px;
+    right: 150px;
+}
+
+.quienes-somos .image-content img {
+    height: 500px;
+    object-fit: cover;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#mission-vision-section {
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    padding: 40px 0;
+    position: relative;
+    left: -350px; /* Ajuste hacia la izquierda */
+    
+    height: 250px;
+    width: 100%;
+}
+
+#mission-vision-section h3 {
+    font-family: 'Zing Rust Base', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #004aad; /* Azul */
+}
+
+#mission-vision-section p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: #555555;
+    line-height: 1.6;
+}
